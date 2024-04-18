@@ -139,8 +139,8 @@
 
 // BF usage of ADC pins
 #define ADC_VBAT_PIN         PC0
-#define ADC_RSSI_PIN         PC1 // current meter 2 on 4in1ESC2 connector
-#define ADC_CURR_PIN         PC3 // current meter 1 on 4in1ESC2 connector
+#define ADC_RSSI_PIN         PC1 // current meter 1 on 4in1ESC2 connector (J1:6)
+#define ADC_CURR_PIN         PC3 // current meter 2 on 4in1ESC1 connector (J5:6)
 #define ADC_EXTERNAL1_PIN    PC2 // on mezannine connector
 
 #define VTX_ENABLE_PIN                PC15
@@ -253,6 +253,7 @@
 #define MOTOR6_PIN           PB0
 #define MOTOR7_PIN           PA7
 #define MOTOR8_PIN           PA6
+
 #define LED_STRIP_PIN        PC6
 
 // Index, Pin, 1-based occurrence of pin in fullTimerHardware, dma opt (use -1 for no DMA)
