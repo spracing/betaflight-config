@@ -246,7 +246,8 @@
     TIMER_PIN_MAP( 5, PA7 , 2,  5 ) \
     TIMER_PIN_MAP( 6, PB0 , 2,  6 ) \
     TIMER_PIN_MAP( 7, PB1 , 2,  7 ) \
-    TIMER_PIN_MAP( 8, PC6 , 2,  8 )
+    TIMER_PIN_MAP( 8, PC6 , 2,  8 ) \
+    TIMER_PIN_MAP( 9, PA8 , 1,  9 )
 
 #define DEFAULT_BLACKBOX_DEVICE     BLACKBOX_DEVICE_SDCARD
 
