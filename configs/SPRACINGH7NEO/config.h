@@ -33,12 +33,10 @@
 
 #define USE_SPRACING_PERSISTENT_RTC_WORKAROUND
 
-// No physical buttons, BIND pad on bottom can be connected though a 10k resistor and switch to V3P3+
+// Single physical button for BIND, no external pull-up, needs internal pull-up, switch connects to GND.
 #define USE_BUTTONS
 #define BUTTON_A_PIN            PC14
-#define BUTTON_A_PIN_INVERTED
 #define BUTTON_B_PIN            PC14
-#define BUTTON_B_PIN_INVERTED
 
 // Device has 2x flash chips in parallel using a single CS pin, initial support is for the first flash chip only.
 #define USE_OCTOSPI
