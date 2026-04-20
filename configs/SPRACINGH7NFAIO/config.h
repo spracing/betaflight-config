@@ -260,15 +260,16 @@
     TIMER_PIN_MAP( 1, PA1 , 2,  1) \
     TIMER_PIN_MAP( 2, PA2 , 2,  2) \
     TIMER_PIN_MAP( 3, PA3 , 2,  3) \
-    TIMER_PIN_MAP( 4, PD12, ?,  ?) \
-    TIMER_PIN_MAP( 5, PD13, ?,  ?) \
-    TIMER_PIN_MAP( 6, PD14, ?,  ?) \
-    TIMER_PIN_MAP( 7, PD15, ?,  ?) \
-    TIMER_PIN_MAP( 8, PB0 , ?,  ?) \
-    TIMER_PIN_MAP( 9, PB1 , ?,  ?) \
-    TIMER_PIN_MAP(10, PE5 , ?,  ?) \
-    TIMER_PIN_MAP(11, PE6 , ?,  ?) \
-    TIMER_PIN_MAP(12, PA8 , ?,  ?)
+    TIMER_PIN_MAP( 4, PD12, 1,  4) \
+    TIMER_PIN_MAP( 5, PD13, 1,  5) \
+    TIMER_PIN_MAP( 6, PD14, 1,  6) \
+    TIMER_PIN_MAP( 7, PD15, 1,  7) \
+    TIMER_PIN_MAP( 8, PB0 , 2,  -1) \
+    TIMER_PIN_MAP( 9, PB1 , 2,  -1) \
+    TIMER_PIN_MAP(10, PE5 , 1,  -1) \
+    TIMER_PIN_MAP(11, PE6 , 1,  -1) \
+    TIMER_PIN_MAP(11, PE6 , 1,  -1) \
+    TIMER_PIN_MAP(12, PA8 , 1,  8)
 
 // Defines not used by BF
 #define SWDIO_PIN                     PA13
