@@ -95,6 +95,7 @@
 #define USE_FLASH_M25P16
 #define USE_FLASH_W25Q128FV
 #define USE_FLASH_W25N01G
+#define USE_FLASH_MT29F
 
 #define DEFAULT_BLACKBOX_DEVICE       BLACKBOX_DEVICE_FLASH
 
@@ -153,7 +154,7 @@
 #define USE_GYRO_SPI_ICM42688P
 // TIM8 CH1/2 for GYRO1 INT/CLK  EXTI6 = GYRO1 INT (EXTI9_5)
 // TIM8 CH3/4 for GYRO2 INT/CLK  EXTI8 = GYRO2 INT (EXTI9_5)
-// #define USE_GYRO_CLKIN
+#define USE_GYRO_CLKIN
 #define GYRO_1_EXTI_PIN               PC6
 #define GYRO_1_CLKIN_PIN              PC7
 #define GYRO_2_EXTI_PIN               PC8
@@ -273,8 +274,9 @@
     TIMER_PIN_MAP( 9, PB1 , 2,  -1) \
     TIMER_PIN_MAP(10, PE5 , 1,  -1) \
     TIMER_PIN_MAP(11, PE6 , 1,  -1) \
-    TIMER_PIN_MAP(11, PE6 , 1,  -1) \
-    TIMER_PIN_MAP(12, PA8 , 1,  8)
+    TIMER_PIN_MAP(12, PC7 , 2,  -1) \
+    TIMER_PIN_MAP(13, PC9 , 2,  -1) \
+    TIMER_PIN_MAP(14, PA8 , 1,  8)
 
 // Defines not used by BF
 #define SWDIO_PIN                     PA13
