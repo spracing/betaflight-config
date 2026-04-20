@@ -153,6 +153,7 @@
 #define USE_GYRO_SPI_ICM42688P
 // TIM8 CH1/2 for GYRO1 INT/CLK  EXTI6 = GYRO1 INT (EXTI9_5)
 // TIM8 CH3/4 for GYRO2 INT/CLK  EXTI8 = GYRO2 INT (EXTI9_5)
+// #define USE_GYRO_CLKIN
 #define GYRO_1_EXTI_PIN               PC6
 #define GYRO_1_CLKIN_PIN              PC7
 #define GYRO_2_EXTI_PIN               PC8
@@ -163,6 +164,8 @@
 #define GYRO_2_SPI_INSTANCE           SPI3
 #define GYRO_2_CS_PIN                 SPI3_NSS_PIN
 #define GYRO_2_ALIGN                  CW270_DEG
+
+#define DEFAULT_GYRO_TO_USE           GYRO_CONFIG_USE_GYRO_BOTH
 
 #define USE_BARO
 #define USE_BARO_BMP388
