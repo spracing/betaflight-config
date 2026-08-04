@@ -166,10 +166,10 @@
 #define GYRO_2_CLKIN_PIN              PC9
 #define GYRO_1_SPI_INSTANCE           SPI2
 #define GYRO_1_CS_PIN                 SPI2_NSS_PIN
-#define GYRO_1_ALIGN                  CW180_DEG
+#define GYRO_1_ALIGN                  CW0_DEG
 #define GYRO_2_SPI_INSTANCE           SPI3
 #define GYRO_2_CS_PIN                 SPI3_NSS_PIN
-#define GYRO_2_ALIGN                  CW270_DEG
+#define GYRO_2_ALIGN                  CW90_DEG
 
 #define DEFAULT_GYRO_TO_USE           GYRO_CONFIG_USE_GYRO_BOTH
 
